@@ -89,23 +89,7 @@
                     labelColor: "#fff",
                     color: "#fff"
                 }
-            })], 1), i("v-uni-view", {
-                staticClass: "tip-box",
-                attrs: {"hover-class": "hover-class"},
-                on: {
-                    click: function (t) {
-                        arguments[0] = t = e.$handleEvent(t), e.goVersion.apply(void 0, arguments)
-                    }
-                }
-            }, [i("v-uni-view", {staticClass: "tip-text"}, [e._v("获得识别码")]), i("u-icon", {
-                attrs: {
-                    name: "arrow-right",
-                    label: e.v,
-                    labelPos: "left",
-                    labelColor: "#fff",
-                    color: "#fff"
-                }
-            })], 1)], 1)], 1)], 1), i("v-uni-view", {
+            })], 1), ], 1)], 1)], 1), i("v-uni-view", {
                 staticStyle: {
                     position: "fixed",
                     "z-index": "9999"

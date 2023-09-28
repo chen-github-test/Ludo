@@ -1201,27 +1201,7 @@
                     pagePath: "pagesA/custom/custom",
                     windowTop: 0
                 }
-            }, {
-                path: "/pagesA/version/version",
-                component: {
-                    render: function (e) {
-                        return e("Page", {
-                            props: Object.assign({}, __uniConfig.globalStyle, {
-                                navigationBarTitleText: "获得识别码",
-                                navigationStyle: "custom",
-                                enablePullDownRefresh: !1
-                            })
-                        }, [e("pagesA-version-version", {slot: "page"})])
-                    }
-                },
-                meta: {
-                    name: "pagesA-version-version",
-                    isNVue: !1,
-                    maxWidth: 0,
-                    pagePath: "pagesA/version/version",
-                    windowTop: 0
-                }
-            }, {
+            },  {
                 path: "/choose-location", component: {
                     render: function (e) {
                         return e("Page", {props: {navigationStyle: "custom"}}, [e("system-choose-location", {slot: "page"})])
